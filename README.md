@@ -22,7 +22,7 @@ A stunning, interactive racing game website featuring smooth animations, video t
 ## 🛠️ Tech Stack
 
 ### Core
-- **Vite** - Next-generation frontend tooling
+
 - **React 19** - Latest React version for optimal performance
 - **TypeScript** - For type-safe code
 - **GSAP** - Professional-grade animations
@@ -43,55 +43,6 @@ A stunning, interactive racing game website featuring smooth animations, video t
 - **ESLint** - Code quality and consistency
 - **TypeScript** - Version ~5.8.3
 - **Vite** - Version ^6.3.5
-- **SWC** - Fast React compilation
-
-## 🎯 Project Structure
-
-```
-src/
-├── components/
-│   ├── Hero.tsx         # Main landing section
-│   ├── Features.tsx     # Game features showcase
-│   ├── AnimatedTitle.tsx# Custom animated title
-│   ├── VideoPreview.tsx # Video preview component
-│   ├── About.tsx        # About section
-│   ├── Story.tsx        # Game story section
-│   ├── Contact.tsx      # Contact form
-│   ├── Footer.tsx       # Footer section
-│   ├── Navbar.tsx       # Navigation bar
-│   └── Button.tsx       # Reusable button component
-├── assets/              # Static assets
-├── App.tsx             # Main app component
-├── index.css           # Global styles
-└── main.tsx           # Entry point
-```
-
-## 📦 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/themove.git
-
-# Navigate to project directory
-cd themove
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-## 🚀 Scripts
-
-```json
-{
-  "dev": "vite",
-  "build": "tsc -b && vite build",
-  "lint": "eslint .",
-  "preview": "vite preview"
-}
-```
 
 ## 💫 Key Features Implementation
 
@@ -121,26 +72,3 @@ The project uses Tailwind CSS with custom utilities:
 - Responsive design utilities
 - Special font implementations
 - Modern UI components
-
-## 🔧 Configuration Files
-
-- `vite.config.ts` - Vite configuration
-- `tailwind.config.js` - Tailwind CSS configuration
-- `tsconfig.json` - TypeScript configuration
-- `eslint.config.js` - ESLint rules
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Made with ❤️ by [Your Name]
